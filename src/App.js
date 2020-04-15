@@ -34,6 +34,10 @@ const theme = createMuiTheme({
       fontFamily: "'Viaoda Libre', 'Georgia', serif",
       fontSize: "3rem",
     },
+    h5: {
+      fontFamily: "'Viaoda Libre', 'Georgia', serif",
+      fontSize: "2rem",
+    },
     h3: {
       fontFamily: "'Viaoda Libre', 'Georgia', serif",
       fontSize: "5rem",

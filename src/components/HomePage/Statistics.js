@@ -21,7 +21,7 @@ const WelcomeCard = (props) => {
                 There are currently over 4500 words in the lexicon. A better number coming soon!
             </Typography>
             <Typography variant="body1">
-                This site was started in April of 2020.
+                <b>Version 1.0.0.</b> This site was started in April of 2020.
             </Typography>
         </Box>
     )
