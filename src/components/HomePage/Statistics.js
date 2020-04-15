@@ -18,7 +18,7 @@ const WelcomeCard = (props) => {
                 The Éinhyun language is a property of <b>SHANGRI-LA-PROJECT/Valentine</b>. All rights reserved.
             </Typography>
             <Typography variant="body1">
-                There are currently over 3750 words in the lexicon. A better number coming soon!
+                There are currently over 4500 words in the lexicon. A better number coming soon!
             </Typography>
             <Typography variant="body1">
                 This site was started in April of 2020.

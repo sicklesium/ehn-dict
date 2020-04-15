@@ -3,7 +3,8 @@ import clsx from "clsx"
 
 import { makeStyles, Container, Grid, Paper } from "@material-ui/core"
 
-import Navigation from "./Navigation.js"
+import MainAbout from "./AboutPage/MainAbout.js"
+import Sponsor from "./AboutPage/Sponsor.js"
 
 const useStyles = makeStyles((theme) => ({
     root: {
@@ -47,19 +48,16 @@ const About = (props) => {
     return (
         <Container maxWidth="lg" className={classes.container}>
             <Grid container spacing={3}>
-                {/* Chart */}
                 <Grid item xs={12} md={8} lg={9}>
                     <Paper className={fixedHeightPaper}>
-                        <p>TEST</p>
+                        <MainAbout />
                     </Paper>
                 </Grid>
-                {/* Recent Deposits */}
                 <Grid item xs={12} md={4} lg={3}>
                     <Paper className={fixedHeightPaper}>
-                        <p>OTHER TEST</p>
+                        <Sponsor />
                     </Paper>
                 </Grid>
-                {/* Recent Orders */}
                 <Grid item xs={12}>
                     <Paper className={classes.paper}>
                         <p>ONE MORE TEST</p>
