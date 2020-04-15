@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import clsx from "clsx"
+import clsx from "clsx";
 
 import { makeStyles, Container, Grid, Paper } from "@material-ui/core"
 
